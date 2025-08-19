@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "lint": "eslint ."
+    "lint": "eslint . --env node --env es2021 --parser-options ecmaVersion:latest"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
